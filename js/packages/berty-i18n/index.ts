@@ -5,8 +5,8 @@ import { languages } from './locale/languages'
 i18next
 	.use(initReactI18next)
 	.init({
-		fallbackLng: 'enUS',
-		lng: 'enUS',
+		fallbackLng: 'ruRU',
+		lng: 'ruRU',
 		resources: languages,
 		debug: true,
 		returnEmptyString: false,
