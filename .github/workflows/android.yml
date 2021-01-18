@@ -21,6 +21,7 @@ on:
       - 'js/**'
       - '!js/packages/berty-i18n/locale/*/*.json'
       - '.github/workflows/android.yml'
+  workflow_dispatch:
 
 jobs:
   build:
